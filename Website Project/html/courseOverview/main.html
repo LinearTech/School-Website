@@ -1,0 +1,39 @@
+<html>
+<!-- All basic setup: Styles, filepath declaration, etc. -->
+	<head>
+		<base target="/Website Project/">
+		<link rel="stylesheet" href="../../css/mainCss.css">
+		<link rel="icon" href="../../graphics/icons/cte_site_icon.png">
+			<style>
+				html
+					{
+						background-image: url('../../graphics/bg/mainBg.jpg');
+						background-size: 2500px, 1600px;
+					}
+			</style>
+		<title>Course Overview | ERP Hub</title>
+	</head>
+<!-- The actual webpage the user sees. -->
+	<body>
+		<list id="menu">
+			<ul><a href="../home.html">Home</a></ul>
+			<ul><a href="../courseOverview/main.html">Course Overview</a></ul>
+			<ul><a href="../about.html">About</a></ul>
+			<ul><span id="p1" class="date"></span><b id="transparent">-</b></ul>
+		</list>
+<!-- BEGIN | Script to set the date in the menu bar | BEGIN-->
+			<script>
+				var date = new Date();
+				var currentDate = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
+				document.getElementById("p1").innerHTML = currentDate;
+			</script>
+		<!-- END | Script to set the date in the menu bar | END-->
+	<h1>Electronics, Robotics, and Programming</h1>
+		<p>The electronics, robotics, and programming course at Kent is designed to teach kids the fundamentals of circuitry, programming, and other skills to help them find careers in this field.</p>
+	<h2><a href="../../html/courseOverview/sections/electronics.html">Electronics</a></h2>
+		<p>In relation to electronics, students will learn the basics of soldering, Alternate and Direct Current, Ohms Law, and types of circuits.</p>
+	<h2><a href="../../html/courseOverview/sections/robotics.html">Robotics</a></h2>
+	<h2><a href="../../html/courseOverview/sections/programming.html">Programming</a></h2>
+		<p></p>
+	</body>
+</html>

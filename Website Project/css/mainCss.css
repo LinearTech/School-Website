@@ -1,0 +1,121 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+img
+{
+	max-width: 50%;
+	padding-left: 20px
+}
+
+a
+{
+		color:blue;
+		text-decoration: none;
+		transition-duration: 0.25s;
+}
+
+a:hover
+{
+	color:#88AAFF;
+}
+
+body
+{
+	font-size: 20px;
+	margin-left: 400px;
+	margin-right: 400px;
+	font-family: Dubai;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+#menu
+{
+	background-color:#D5D5D5;
+	border-radius: 22.5px;
+	font-size: 22px;
+	text-indent: 5px;
+	border-right-width: 800px;
+	font-family: Tahoma;
+	height: 32.5px;
+	padding: 3.5px;
+	text-decoration-style: double;
+	font-weight: 10px;
+}
+.date
+{
+	margin-left:510px
+}
+
+.slider {
+  width: 100%;
+  max-width: 400px;
+  height: 350px;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-left:300px;
+}
+
+.slide {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-left:0px;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fffff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+.btn-prev {
+  top: 85%;
+  left: 30%;
+}
+
+.btn-next {
+  top: 85%;
+  right: 30%;
+}
+html::-webkit-scrollbar 
+{
+	display: none;
+}
+
+		
+ul
+	{
+		display: inline;
+	}
+	
+#transparent
+{
+		opacity: 0;
+}
