@@ -18,19 +18,83 @@
 		<b><a href="../main.html">← Back to Course Overview</a></b>
 		<h1>Electronics</h1>
 			<p>When considering the basics of electronics, 3 main things come to mind. Ohm's law, soldering, and electrical components. This part of the website will introduce you to these 3 things.</p>
+			<hr>
 			<section>
 				<article>
 					<h2>Ohm's Law</h2>
+						<h3>What is Ohm's Law?</h3>
+							<p>In it's most essential form, Ohm's Law is the sets of formulas used to calculate the different factors in a circuit. This includes total resistance, total voltage, total amperage, amperage across a resistor and much more.</p>
+						<h3>Formulas</h3>
+							<p>Below is a table outlining the basic formulas.</p>
+							<br>
+							<p><strong>Where A=Amps, V=Volts, W= Watts and R=Resistance...</strong></p>
+							<table>
+							 <tr>
+							  <th>Current</th>
+							  <th>Volts</th>
+							  <th>Resistance</th>
+							  <th>Power</th>
+							 </tr>
+							 <tr>
+							  <th>A = (P/R)<sup>1/2</sup></th>
+							  <th>V = R * A</th>
+							  <th>R = V/A</th>
+							  <th>W = V<sup>2</sup>/R</th>
+							 </tr>
+							 <tr>
+							  <th>A = P/V</th>
+							  <th>V = P/A</th>
+							  <th>R = V<sup>2</sup>/P</th>
+							  <th>W = R * A<sup>2</sup></th>
+							 </tr>
+							 <tr>
+							  <th>A = V/R</th>
+							  <th>V = (P * R)<sup>1/2</sup></th>
+							  <th>R = P/A<sup>2</sup></th>
+							  <th>W = V * A</th>
+							 </tr>
+							</table>
+						<h3>Application in Electronics</h3>
+							<p>Very often, Ohm's Law is used to determine missing values for resistance and such. Let's do a problem.</p>
+							<br>
+							<img src="../../../graphics/img/find-resistance.png">
+							<p>Taking a look above, we can see that the resistance of R2 is missing. First, let's take a look at R2. The current across it is 6 Amps. With this, we can determine resistance. So, we apply the formula R = V/A. That would give us R = 120/6. This equates to 20, which is our answer. 20 Ω.</p>
 				</article>
 				<hr>
 				<article>
 					<h2>Soldering</h2>
+						<h3>What is Soldering?</h3>
+							<p>In it's simplest form, soldering is the melting of metal to other components to keep them in place.</p>
+						<h3>How It's Used</h3>
+							<p>It is used in all forms of electronics, from industrial robots, to a simple calculator.</p>
+						<h3>How to Solder</h3>
+							<p>Watch the video below to learn how to properly solder.</p>
+							<br>
+							<iframe width="1080" height="520" src="https://www.youtube.com/embed/Qps9woUGkvI" title="Soldering Tutorial for Beginners: Five Easy Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 				<hr>
 				<article>
 					<h2>Electrical Components</h2>
+						<h3>Conductors</h3>
+							<p>These are the components that make up most electrical components. These are typically made out of conductive metals like copper, aluminum, gold and silver. These act as a means of transferring electricity to other components. These include, but are not limited to:</p>
+							<list>
+								<li>Wires</li>
+								<li>Capacitors</li>
+								<li>Resistors</li>
+								<li>Diodes</li>
+								<li>Switches</li>
+							</list>
+						<h3>Resistors</h3>
+							<p>These components act as a means to reduce the current going through a circuit. These are used extremely often in a large variety of components. In general, they follow a 4 band color pattern, as per the chart below. </p>
+							<br>
+							<img src="../../../graphics/img/4-band.png">
+						<h3>Diodes</h3>
+							<p>Diodes are, in essence, are one way pathes for current to travel along. There is not really much to say about these, other than they have two contact points, cathode and anode.</p>
+						<h3>Capacitors</h3>
+							<p>Capacitors, per the name, hold a charge up to the maximum it can hold, and then releases it. These are typically used for timed circuits, like a blinker. Their max charge is determined in micro farads.</p>
+						<h3>Power Supplies</h3>
+							<p>Per the name, these supply power to the circuit. They are typically measured in volts and work relatively the same as each other. These can include batteries, USB power cords, and power banks.</p>
 				</article>
-				<hr>
 			</section>
 	</body>
 </html>

@@ -50,7 +50,7 @@ code
 #menu
 	{
 		height: 32.5px;
-		padding: 3.5px;
+		padding: 3.25px;
 		border-right-width: 800px;
 		border-radius: 22.5px;
 		background-color:#D5D5D5;
@@ -58,10 +58,11 @@ code
 		font-weight: 10px;
 		font-family: Tahoma;
 		text-indent: 5px;
+		
 	}
 .date
 	{
-		margin-left:510px
+		margin-left:440px
 	}
 
 html::-webkit-scrollbar 
@@ -78,4 +79,15 @@ ul
 #transparent
 	{
 		opacity: 0;
+	}
+
+table, th, td
+	{
+		font-size: 18px;
+		border-width: 2.5px;
+		border-style: solid;
+		text-align:center;
+		width: 600px;
+		height:50px;
+		border-color: black;	
 	}
