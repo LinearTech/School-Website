@@ -9,7 +9,11 @@ img
 		outline-color:black;
 		outline-style:solid;
 	}
-
+iframe
+{
+	width:720px;
+	height:405px;
+}
 #menu
 	{
 		background-color: #D5D5D5;
@@ -50,6 +54,7 @@ body
 
 code
 	{
+
 		background-color:#ececec;
 		font-size: 16px;
 	}
