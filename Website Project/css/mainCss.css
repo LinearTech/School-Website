@@ -5,23 +5,26 @@ img
 		margin-bottom: 10px;
 		border-color: black;
 		border-radius: 25px;
-		outline-width: 2.5px;
-		outline-color:black;
-		outline-style:solid;
+		outline: solid black 2.5px;
+	}
+iframe
+	{
+		width:1080px;
+		height:520px;
 	}
 
 #menu
 	{
 		background-color: #D5D5D5;
-		height: 32.5px;
-		padding: 3.25px;
+		height: 32px;
 		border-right-width: 800px;
 		border-radius: 22.5px;
 		font-size: 22px;
-		font-weight: 10px;
 		font-family: Tahoma;
 		text-indent: 5px;
+		display:block;
 	}
+
 a
 	{
 		color:blue;
@@ -36,20 +39,18 @@ a:hover
 
 body
 	{
-		background-image: radial-gradient(white 10%, #ABB8E6 90%);
+		background-image: radial-gradient(white 1%, #AAA8E6 99%);
 		font-size: 20px;
 		font-family: Trebuchet MS;
 		margin-left: 400px;
 		margin-right: 400px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding: 10px;
 		border-radius: 10px;
 	}
 
-code
+code, #code
 	{
+		font-family: Consolas;
 		background-color:#ececec;
 		font-size: 16px;
 	}
@@ -92,16 +93,17 @@ table, th, td
 	}
 
 #note
-{
-	font-style: italic;
-	text-decoration:underline;
-}
+	{
+		font-style: italic;
+		text-decoration:underline;
+	}
 
 #note::before
-{
-	content: "NOTE:";
-}
+	{
+		content: "NOTE:";
+	}
+
 sub, sup
-{
-	font-size:10px;
-}
+	{
+		font-size:10px;
+	}
